@@ -439,7 +439,7 @@
             </singleton-policies>
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:transactions:3.0">
-            <core-environment>
+            <core-environment node-identifier="id">
                 <process-id>
                     <uuid/>
                 </process-id>
